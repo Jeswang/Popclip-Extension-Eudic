@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Shell Script File</key>
+			<string>eudic.php</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Image File</key>
+			<string>eudic.png</string>
+			<key>Long Running</key>
+			<false/>
+			<key>Title</key>
+			<string>Eudic</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.eusoft.eudic</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+			<string>http://www.eudic.net/</string>
+			<key>Name</key>
+			<string>Eudb_en</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Add word to Eudic </string>
+	<key>Extension Identifier</key>
+	<string>com.lai1tong.eudb</string>
+	<key>Extension Name</key>
+	<string>Eudic</string>
+	<key>Pass HTML</key>
+	<false/>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
